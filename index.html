@@ -18,15 +18,14 @@
 <center>
    <h1 class="btn btn-info heading"><marquee>AI SURVEILLANCE</marquee> </h1>
     <br>
-    <br>
     <button onclick="start()" class="btn btn-success start">START</button>
     <br>
+    <h2 class= "btn btn-warning " id="status"></h2>
     <br>
-    <h2 class= "btn btn-warning statusL"></h2>
+    <h2 class="btn btn-warning " id="objects"></h2>
+   <br>
     <br>
-    <h2 class="btn btn-warning objectsD"></h2>
-    <br>
-    <br>
+    <input type="range" min="0" max="1" step="0.1" value="0.5" id="slider" onchange="sliDer()">
 </center>
 
 <script src="main.js"></script>
